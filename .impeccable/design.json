@@ -1,0 +1,685 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T23:52:59.072451+00:00",
+  "title": "Design System: NJ Scatman",
+  "extensions": {
+    "colorMeta": {
+      "night": {
+        "role": "neutral",
+        "displayName": "Deep Lawn Night",
+        "canonical": "#16351f",
+        "tonalRamp": [
+          "#001101",
+          "#0d2c17",
+          "#2b4a33",
+          "#4a6a52",
+          "#6a8c72",
+          "#8daf94",
+          "#b0d4b8",
+          "#d5fadc"
+        ]
+      },
+      "night-2": {
+        "role": "neutral",
+        "displayName": "Night Moss",
+        "canonical": "#1c4226",
+        "tonalRamp": [
+          "#001200",
+          "#052e13",
+          "#264c2f",
+          "#456c4d",
+          "#668e6e",
+          "#88b190",
+          "#abd6b3",
+          "#d0fcd8"
+        ]
+      },
+      "lawn": {
+        "role": "tertiary",
+        "displayName": "Lawn",
+        "canonical": "#3f7f34",
+        "tonalRamp": [
+          "#001400",
+          "#003200",
+          "#0b5100",
+          "#327227",
+          "#549549",
+          "#77b96b",
+          "#9ade8f",
+          "#c2ffb7"
+        ]
+      },
+      "lawn-light": {
+        "role": "tertiary",
+        "displayName": "Logo Oval Green",
+        "canonical": "#8cc152",
+        "tonalRamp": [
+          "#001200",
+          "#033000",
+          "#225000",
+          "#417100",
+          "#61941d",
+          "#83b848",
+          "#a6dd6e",
+          "#d3ffa9"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Path Cream",
+        "canonical": "#f7f2e3",
+        "tonalRamp": [
+          "#0e0b03",
+          "#29251a",
+          "#464236",
+          "#656154",
+          "#878275",
+          "#aaa597",
+          "#cec9ba",
+          "#f3eedf"
+        ]
+      },
+      "cream-2": {
+        "role": "neutral",
+        "displayName": "Sun-Faded Cream",
+        "canonical": "#efe6cf",
+        "tonalRamp": [
+          "#110a00",
+          "#2b2412",
+          "#49412e",
+          "#68614d",
+          "#8a826d",
+          "#ada48f",
+          "#d1c9b2",
+          "#f7eed7"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#fffaf0",
+        "tonalRamp": [
+          "#0e0b05",
+          "#28251d",
+          "#45423a",
+          "#656158",
+          "#868279",
+          "#a9a49b",
+          "#cdc9bf",
+          "#f3eee4"
+        ]
+      },
+      "straw": {
+        "role": "neutral",
+        "displayName": "Straw",
+        "canonical": "#cdbf9b",
+        "tonalRamp": [
+          "#140900",
+          "#2f2302",
+          "#4d4120",
+          "#6d603f",
+          "#8e815f",
+          "#b2a481",
+          "#d6c8a4",
+          "#fceec8"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Bark Ink",
+        "canonical": "#33210f",
+        "tonalRamp": [
+          "#160700",
+          "#33210f",
+          "#513e2b",
+          "#725d49",
+          "#947e69",
+          "#b7a08b",
+          "#dcc4ae",
+          "#ffead3"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Bark",
+        "canonical": "#5e4527",
+        "tonalRamp": [
+          "#190500",
+          "#361f01",
+          "#553d1f",
+          "#765c3d",
+          "#987d5d",
+          "#bc9f7f",
+          "#e1c4a2",
+          "#ffe9c6"
+        ]
+      },
+      "brown": {
+        "role": "secondary",
+        "displayName": "Wordmark Brown",
+        "canonical": "#6b3f1d",
+        "tonalRamp": [
+          "#210000",
+          "#401800",
+          "#613613",
+          "#835533",
+          "#a67654",
+          "#cb9975",
+          "#f1bd98",
+          "#ffe2bd"
+        ]
+      },
+      "mustard": {
+        "role": "primary",
+        "displayName": "Starburst Mustard",
+        "canonical": "#f5c533",
+        "tonalRamp": [
+          "#230000",
+          "#431700",
+          "#633700",
+          "#855800",
+          "#a87a00",
+          "#cd9e00",
+          "#f3c32f",
+          "#ffeb8d"
+        ]
+      },
+      "mustard-hover": {
+        "role": "primary",
+        "displayName": "Sunlit Mustard",
+        "canonical": "#ffd34d",
+        "tonalRamp": [
+          "#220000",
+          "#411900",
+          "#613900",
+          "#835a00",
+          "#a67c00",
+          "#ca9f00",
+          "#f0c43a",
+          "#ffec8d"
+        ]
+      },
+      "on-night": {
+        "role": "neutral",
+        "displayName": "Cream on Night",
+        "canonical": "#f7f2e3",
+        "tonalRamp": [
+          "#0e0b03",
+          "#29251a",
+          "#464236",
+          "#656154",
+          "#878275",
+          "#aaa597",
+          "#cec9ba",
+          "#f3eedf"
+        ]
+      },
+      "on-night-soft": {
+        "role": "neutral",
+        "displayName": "Sage",
+        "canonical": "#c9d9b8",
+        "tonalRamp": [
+          "#060f00",
+          "#1e290f",
+          "#3a472b",
+          "#59674a",
+          "#7a886a",
+          "#9cab8c",
+          "#c0d0af",
+          "#e5f5d4"
+        ]
+      },
+      "error-line": {
+        "role": "error",
+        "displayName": "Error Line",
+        "canonical": "#b3261e",
+        "tonalRamp": [
+          "#3a0000",
+          "#610000",
+          "#880000",
+          "#b0221b",
+          "#d84c3f",
+          "#ff7161",
+          "#ff9784",
+          "#ffd0c0"
+        ]
+      },
+      "error-text": {
+        "role": "error",
+        "displayName": "Error Text",
+        "canonical": "#9c1f17",
+        "tonalRamp": [
+          "#370000",
+          "#5d0000",
+          "#830000",
+          "#aa2e24",
+          "#d25446",
+          "#fa7868",
+          "#ff9d8b",
+          "#ffd0c0"
+        ]
+      }
+    },
+    "grassPalette": {
+      "source": "index.html, function Lawn (LAYERS) and the fringe/frame IIFE",
+      "hero": [
+        {
+          "lift": 18,
+          "colors": [
+            "#1f4a26",
+            "#255a2b",
+            "#2a6230"
+          ]
+        },
+        {
+          "lift": 8,
+          "colors": [
+            "#2f6e30",
+            "#3a7f35",
+            "#347533"
+          ]
+        },
+        {
+          "lift": -2,
+          "colors": [
+            "#4d9a3d",
+            "#6cb44a",
+            "#8cc152",
+            "#5ea844"
+          ]
+        }
+      ],
+      "fringe": [
+        {
+          "lift": 2,
+          "colors": [
+            "#255a2b",
+            "#2a6230"
+          ]
+        },
+        {
+          "lift": -2,
+          "colors": [
+            "#2f6e30",
+            "#3a7f35"
+          ]
+        },
+        {
+          "lift": -6,
+          "colors": [
+            "#16351f",
+            "#1c4226"
+          ]
+        }
+      ],
+      "frame": [
+        {
+          "lift": 0,
+          "colors": [
+            "#2f6e30",
+            "#3a7f35"
+          ]
+        },
+        {
+          "lift": -3,
+          "colors": [
+            "#4d9a3d",
+            "#6cb44a",
+            "#8cc152"
+          ]
+        }
+      ],
+      "pileSprite": {
+        "gradient": [
+          "#9a5f2c",
+          "#74431c",
+          "#4a2a10"
+        ],
+        "stroke": "#2e1a08",
+        "curl": "#5d3615",
+        "highlight": "rgba(247,226,190,.75)",
+        "groundShadow": "rgba(10,30,12,.35)"
+      },
+      "fly": {
+        "body": "#1b1810",
+        "wings": "rgba(235,242,250,.8)"
+      },
+      "clippings": [
+        "#8cc152",
+        "#6cb44a",
+        "#f5c533"
+      ]
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; uppercase, max 11ch, balanced; one phrase may be mustard."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles, uppercase, balanced. Close headline runs clamp(40px,11vw,76px)."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Live price on the ticket; tabular numerals."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service row titles."
+      },
+      "pitch": {
+        "displayName": "Pitch",
+        "purpose": "One-line hero pitch, 20px ceiling, max 34ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All running copy; intros cap at 44ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase brown form legends and field labels only."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Notes, errors, footer, fact chips. 13px floor reserved for captions and the preview label."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ticket-lift",
+        "value": "0 10px 30px -12px rgba(22,53,31,.45)",
+        "purpose": "Price ticket; the only lifted card on cream."
+      },
+      {
+        "name": "gold-drop",
+        "value": "0 8px 20px -10px rgba(0,0,0,.55)",
+        "purpose": "Under gold buttons."
+      },
+      {
+        "name": "frame-drop",
+        "value": "0 14px 30px -14px rgba(0,0,0,.6)",
+        "purpose": "Photo frames on night."
+      },
+      {
+        "name": "field-focus",
+        "value": "0 0 0 3px rgba(245,197,51,.6)",
+        "purpose": "Focused text input halo."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 3px solid #f5c533; outline-offset: 3px",
+        "purpose": "Global :focus-visible."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-spring",
+        "value": "cubic-bezier(.16,1,.3,1) .25s",
+        "purpose": "Button press scale(.97), chip lift, row arrow nudge."
+      },
+      {
+        "name": "ease-bar",
+        "value": "cubic-bezier(.2,.9,.3,1) .35s",
+        "purpose": "Sticky phone bar slide-up."
+      },
+      {
+        "name": "color-fade",
+        "value": ".2s",
+        "purpose": "Background/border color changes on buttons, chips, row cues."
+      },
+      {
+        "name": "WIND_SPEED",
+        "value": "1.0",
+        "purpose": "YARD: global wind tempo. Wind = gust(0.6 + 0.4*sin(t*.37+x*.0016)*sin(t*.23+1.7)) * (.55 sin(t*2.1+x*.011) + .3 sin(t*3.7-x*.023+1.3) + .15 sin(t*1.1+x*.004))."
+      },
+      {
+        "name": "pointer-decay",
+        "value": "0.9 per frame",
+        "purpose": "YARD: pointer velocity decay; scroll zeroes mouse velocity."
+      },
+      {
+        "name": "visibility",
+        "value": "IntersectionObserver rootMargin 80px",
+        "purpose": "YARD.add: only visible items draw; loop stops when none; dt capped at 0.05s; reduced motion paints one still frame."
+      },
+      {
+        "name": "Lawn.SPACING",
+        "value": "4.2px phone (<=600px) / 3.2px desktop",
+        "purpose": "Blade spacing per layer."
+      },
+      {
+        "name": "Lawn.HEIGHT",
+        "value": "[40, 78]",
+        "purpose": "Default blade height range (scaled up 15% per layer)."
+      },
+      {
+        "name": "Lawn.PUSH_R",
+        "value": "70px",
+        "purpose": "Pointer reach."
+      },
+      {
+        "name": "Lawn.STIFF/DAMP",
+        "value": "38 / 6.5",
+        "purpose": "Spring back; deflection clamped to +/-1.25 rad with -0.3 bounce."
+      },
+      {
+        "name": "Lawn.lean",
+        "value": "0.08 + wind*0.32*flex(0.7-1.3) + offset",
+        "purpose": "Blade angle; push force 22 outward + 1.1x pointer velocity."
+      },
+      {
+        "name": "hero.lawn",
+        "value": "height [40,80] phone / [60,120] desk; pushR 70 / 90",
+        "purpose": "Hero lawn stage (240px, 270px >=560, 520px >=900)."
+      },
+      {
+        "name": "PILES_PHONE/PILES_DESK",
+        "value": "4 / 7",
+        "purpose": "Scoopable piles; sprite 36px / 38px; spaced 1.6 sprite widths; staggered 140ms pop-in."
+      },
+      {
+        "name": "SCOOP_R",
+        "value": "34px",
+        "purpose": "Swipe reach that scoops a pile."
+      },
+      {
+        "name": "RESPAWN_MS",
+        "value": "4200",
+        "purpose": "How long the spotless yard holds before piles return."
+      },
+      {
+        "name": "fly",
+        "value": "2 per pile; orbit r 12-24; flee within 70px",
+        "purpose": "Flies circle piles and scatter from the pointer and on scoop."
+      },
+      {
+        "name": "scoop-burst",
+        "value": "9 clippings, gravity 700; pile gravity 900, fade .8s",
+        "purpose": "Scoop feedback."
+      },
+      {
+        "name": "fringe",
+        "value": "58px canvas at top:-46px; height [26,52]; pushR 60",
+        "purpose": "Grass growing from green sections into the cream above."
+      },
+      {
+        "name": "frame-grass",
+        "value": "52px canvas; height [18,40]; spacing 4.5/3.6; pushR 50",
+        "purpose": "Grass lapping each photo frame's base."
+      },
+      {
+        "name": "AMP",
+        "value": "5 viewBox units (+3 slow roll, sampled every 24 of 1440)",
+        "purpose": "Cream path-edge wave height, 28px SVG at top:-27px."
+      },
+      {
+        "name": "resize",
+        "value": "150ms debounce, width changes only",
+        "purpose": "All lawns rebuild together."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "pair",
+        "value": "560px"
+      },
+      {
+        "name": "phone-density",
+        "value": "600px (max-width; blade spacing)"
+      },
+      {
+        "name": "desktop",
+        "value": "900px"
+      },
+      {
+        "name": "wrap-max",
+        "value": "1180px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Gold Button",
+      "kind": "button",
+      "refersTo": "button-gold",
+      "description": "Primary action; always paired with a ghost button of the same size.",
+      "html": "<a class=\"ds-btn ds-btn-gold\" href=\"#\">Claim my free week <svg class=\"ds-i\" viewBox=\"0 0 24 24\"><path d=\"M5 12h13M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 22px;border-radius:999px;border:2px solid #33210f;font:800 17px/1.1 system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;text-decoration:none;white-space:nowrap;cursor:pointer;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s} .ds-btn:active{transform:scale(.97)} .ds-btn:focus-visible{outline:3px solid #f5c533;outline-offset:3px} .ds-i{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round} .ds-btn-gold{background:#f5c533;color:#33210f;box-shadow:0 8px 20px -10px rgba(0,0,0,.55)} .ds-btn-gold:hover{background:#ffd34d}"
+    },
+    {
+      "name": "Ghost Button (on night)",
+      "kind": "button",
+      "refersTo": "button-ghost-on-night",
+      "description": "Secondary of the pair on night grounds and the ticket.",
+      "html": "<div style=\"background:#16351f;padding:16px\"><a class=\"ds-btn-ghost\" href=\"#\"><svg class=\"ds-i\" viewBox=\"0 0 24 24\"><path d=\"M5 3h3.2l1.6 4.4-2.1 1.4a12.5 12.5 0 0 0 7.5 7.5l1.4-2.1L21 15.8V19a2 2 0 0 1-2.2 2A17.8 17.8 0 0 1 3 5.2 2 2 0 0 1 5 3z\"/></svg>Call 609-582-3709</a></div>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 22px;border-radius:999px;border:2px solid #f7f2e3;background:transparent;color:#f7f2e3;font:800 17px/1.1 system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;text-decoration:none;white-space:nowrap;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s} .ds-btn-ghost:hover{background:rgba(247,242,227,.1)} .ds-btn-ghost:active{transform:scale(.97)} .ds-btn-ghost:focus-visible{outline:3px solid #f5c533;outline-offset:3px} .ds-i{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Ghost Button (on cream)",
+      "kind": "button",
+      "refersTo": "button-ghost-on-cream",
+      "description": "Secondary of the pair on cream sections.",
+      "html": "<div style=\"background:#f7f2e3;padding:16px\"><a class=\"ds-btn-ghost-c\" href=\"#\">Call 609-582-3709</a></div>",
+      "css": ".ds-btn-ghost-c{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 22px;border-radius:999px;border:2px solid #33210f;background:transparent;color:#33210f;font:800 17px/1.1 system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;text-decoration:none;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s} .ds-btn-ghost-c:hover{background:rgba(51,33,15,.06)} .ds-btn-ghost-c:active{transform:scale(.97)} .ds-btn-ghost-c:focus-visible{outline:3px solid #f5c533;outline-offset:3px}"
+    },
+    {
+      "name": "Plan Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Radio/checkbox pills in the plan picker; selected goes night.",
+      "html": "<div class=\"ds-chips\"><label class=\"ds-chip\"><input type=\"radio\" name=\"p\" checked><span>Weekly</span></label><label class=\"ds-chip\"><input type=\"radio\" name=\"p\"><span>Bi-weekly</span></label><label class=\"ds-chip\"><input type=\"checkbox\"><span>Fly bags</span></label></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:8px;background:#f7f2e3;padding:16px} .ds-chip{position:relative} .ds-chip input{position:absolute;opacity:0;width:1px;height:1px;margin:0} .ds-chip span{display:flex;align-items:center;min-height:48px;padding:0 18px;border-radius:999px;border:2px solid #cdbf9b;background:#fffaf0;color:#33210f;font:800 17px system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;cursor:pointer;transition:background-color .2s,border-color .2s,transform .25s cubic-bezier(.16,1,.3,1)} .ds-chip span:hover{border-color:#6b3f1d} .ds-chip input:checked+span{background:#16351f;border-color:#16351f;color:#f7f2e3;transform:translateY(-1px)} .ds-chip input:focus-visible+span{outline:3px solid #f5c533;outline-offset:2px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Paper input with uppercase brown label; mustard halo on focus.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-town\">Your town or address</label><input id=\"ds-town\" placeholder=\"e.g. Marlton\"></div>",
+      "css": ".ds-field{background:#f7f2e3;padding:16px} .ds-field label{display:block;font:900 15px system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;text-transform:uppercase;letter-spacing:.04em;margin-bottom:8px;color:#6b3f1d} .ds-field input{width:100%;min-height:54px;border-radius:14px;border:2px solid #cdbf9b;background:#fffaf0;color:#33210f;font:600 17px system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;padding:0 16px;caret-color:#6b3f1d} .ds-field input::placeholder{color:#75603f} .ds-field input:focus{outline:none;border-color:#16351f;box-shadow:0 0 0 3px rgba(245,197,51,.6)}"
+    },
+    {
+      "name": "Price Ticket",
+      "kind": "card",
+      "refersTo": "ticket",
+      "description": "Night card on cream holding the live price, offer note and the send pair.",
+      "html": "<div class=\"ds-wrap\"><div class=\"ds-ticket\"><div class=\"ds-price\"><strong>$19</strong><span>per cleanup + tax</span></div><p class=\"ds-note\">First week FREE · Cancel anytime</p><p class=\"ds-sub\">Weekly, 1 dog. From NJ Scatman's current price list.</p></div></div>",
+      "css": ".ds-wrap{background:#f7f2e3;padding:20px} .ds-ticket{background:#16351f;color:#f7f2e3;border-radius:24px;padding:22px 18px 18px;box-shadow:0 10px 30px -12px rgba(22,53,31,.45);font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif} .ds-price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap} .ds-price strong{font-size:56px;font-weight:900;letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums} .ds-price span{color:#c9d9b8;font-weight:700} .ds-note{margin:8px 0 0;font-weight:800;color:#f5c533} .ds-sub{margin:4px 0 0;color:#c9d9b8;font-size:15px}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row-mark",
+      "description": "Whole row is the button: icon tile, title + description, one arrow-in-a-circle cue.",
+      "html": "<div class=\"ds-rows\"><button class=\"ds-row\" type=\"button\"><span class=\"ds-mark\"><svg viewBox=\"0 0 24 24\"><path d=\"M14 3 9.5 12.5\"/><path d=\"M4 14h11l-1.6 4.6A2 2 0 0 1 11.5 20H7.6a2 2 0 0 1-1.9-1.4z\"/></svg></span><span><strong>Scoop the whole yard</strong><span class=\"ds-desc\">Weekly, bi-weekly, twice a week, or a one-time scoop.</span></span><span class=\"ds-go\"><svg viewBox=\"0 0 24 24\"><path d=\"M5 12h13M13 6l6 6-6 6\"/></svg></span></button></div>",
+      "css": ".ds-rows{background:#16351f;padding:0 16px} .ds-row{display:flex;gap:14px;align-items:flex-start;padding:18px 0;width:100%;background:none;border:0;color:#f7f2e3;font:17px/1.5 system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;text-align:left;cursor:pointer} .ds-row strong{display:block;font-size:20px;line-height:1.2;font-weight:800;margin-bottom:4px} .ds-desc{display:block;color:#c9d9b8} .ds-mark{width:40px;height:40px;border-radius:12px;background:#1c4226;display:grid;place-items:center;flex:none;color:#8cc152} .ds-go{margin-left:auto;align-self:center;width:40px;height:40px;border-radius:50%;border:2px solid rgba(247,242,227,.45);display:grid;place-items:center;flex:none;transition:background-color .2s,border-color .2s,transform .25s} .ds-row svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round} .ds-go svg{width:18px;height:18px} .ds-row:hover .ds-go,.ds-row:focus-visible .ds-go{background:#f5c533;border-color:#f5c533;color:#33210f;transform:translateX(3px)} .ds-row:focus-visible{outline:3px solid #f5c533;outline-offset:3px}"
+    },
+    {
+      "name": "Photo Frame",
+      "kind": "card",
+      "refersTo": "photo-frame",
+      "description": "Client photo in a 22px frame; live grass canvas (52px) laps the base in the build.",
+      "html": "<figure class=\"ds-frame\"><div class=\"ds-photo\"></div><figcaption>Snow day</figcaption><div class=\"ds-grass\"></div></figure>",
+      "css": ".ds-frame{position:relative;margin:0;width:220px;border-radius:22px;overflow:hidden;background:#1c4226;aspect-ratio:1/1;box-shadow:0 14px 30px -14px rgba(0,0,0,.6)} .ds-photo{position:absolute;inset:0;background:linear-gradient(160deg,#c9d9b8,#5e4527)} .ds-frame figcaption{position:absolute;left:10px;top:10px;background:rgba(22,53,31,.82);color:#f7f2e3;font:800 13px system-ui,sans-serif;padding:5px 10px;border-radius:999px} .ds-grass{position:absolute;left:0;right:0;bottom:0;height:52px;background:linear-gradient(to top,#4d9a3d,rgba(77,154,61,0))}"
+    },
+    {
+      "name": "Sticky Phone Bar",
+      "kind": "nav",
+      "refersTo": "sticky-bar",
+      "description": "Under 900px: fixed gold + ghost pair, slides up after the hero buttons leave.",
+      "html": "<nav class=\"ds-bar\"><a class=\"ds-b ds-b-gold\" href=\"#\">Claim free week</a><a class=\"ds-b ds-b-ghost\" href=\"#\">Call</a></nav>",
+      "css": ".ds-bar{display:grid;grid-template-columns:1.35fr 1fr;gap:8px;padding:10px 12px;background:rgba(22,53,31,.94)} .ds-b{display:flex;align-items:center;justify-content:center;min-height:54px;padding:0 12px;border-radius:999px;border:2px solid #33210f;font:800 16px/1.1 system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;text-decoration:none;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s} .ds-b:active{transform:scale(.97)} .ds-b:focus-visible{outline:3px solid #f5c533;outline-offset:3px} .ds-b-gold{background:#f5c533;color:#33210f} .ds-b-gold:hover{background:#ffd34d} .ds-b-ghost{color:#f7f2e3;border-color:#f7f2e3} .ds-b-ghost:hover{background:rgba(247,242,227,.1)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Living Backyard",
+    "overview": "**Creative North Star: \"The Living Backyard\"**\n\nThe whole page is one South Jersey lawn. The ground is deep lawn green, never black; cream sections are the paths and patios cut into it. Every green edge is live grass, and every blade, fringe and path edge reads the same wind, so the page moves as one yard rather than as a stack of animated widgets. The client's own materials set the palette: greens from the logo oval, chocolate brown from the wordmark, mustard from the \"First Week is FREE\" starburst. Their Doberman-detective mascot stands in the hero grass with its feet sunk into the blades.\n\nDensity is phone-first and generous: one column, big tap targets (44px minimum, 48 to 56px for anything primary), heavy uppercase display headings over plain sentence-case body. The voice is cartoon and cheeky, never gross: piles are drawn like the one in the logo, with flies and a scoop gesture, never photographic.\n\nInteraction is tactile. Grass parts and springs back under a finger or mouse; piles are scooped with a swipe; service rows toggle add-ons into the plan picker. Motion pauses off screen and freezes to a single still frame under reduced motion.",
+    "keyCharacteristics": [
+      "Deep lawn-green ground with cream \"path\" sections; no black anywhere.",
+      "One shared wind drives every grass canvas and every wavy cream edge.",
+      "System font stack: 900-weight uppercase display, 17px sentence-case body.",
+      "Pill buttons in matched pairs: same height, same 2px outline, gold plus ghost.",
+      "Photos sit inside the world's material: rounded frames with live grass lapping their base.",
+      "Phone-first, with a sticky two-button contact bar under 900px."
+    ],
+    "rules": [
+      {
+        "name": "The Never-Black Rule",
+        "body": "The darkest surface is Deep Lawn Night. Shadows and overlays are tinted with it (rgba(22,53,31,…)), not with neutral black, except the soft drop under gold buttons and photo frames.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Gold Rule",
+        "body": "Mustard is reserved for action, confirmation and focus. If it is not clickable, focused, or confirming something the visitor did (or the free-week offer itself), it is not mustard.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Uppercase 900 is for headlines, prices and form labels. Everything else is sentence case. Never set a paragraph, a button, or a chip in uppercase.",
+        "section": "typography"
+      },
+      {
+        "name": "The First-Screen Rule",
+        "body": "On a 390px phone the offer, the free week, and both primary actions (claim + call) are visible without scrolling.",
+        "section": "layout"
+      },
+      {
+        "name": "The No-Hole Rule",
+        "body": "A desktop column that would sit empty gets proof in it (photos, the ticket, the logo), never decoration.",
+        "section": "layout"
+      },
+      {
+        "name": "The Solid Material Rule",
+        "body": "Anything that represents a material (grass, piles, flies) is drawn filled and shaded with body: piles use a three-stop radial gradient and a soft ground shadow. No outline-only shapes standing in for matter.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Yard Rule",
+        "body": "Every moving edge reads `YARD.wind` at its page-x and runs in the one shared loop. A new animated surface joins the loop through `YARD.add`; it never starts its own timer.",
+        "section": "components"
+      },
+      {
+        "name": "The Green-Edge-Is-Grass Rule",
+        "body": "Wherever green meets cream, the green side grows a live fringe and the cream side rolls with the wind. No straight hard edges between the two grounds.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do keep the ground Deep Lawn Night and tint overlays and the ticket shadow with it.",
+      "Do ship buttons as matched gold/ghost pairs: 56px pills, 2px outline, same component everywhere.",
+      "Do frame any client photo in a 22px-radius frame with grass lapping its base.",
+      "Do run every new motion through the shared `YARD` loop and wind, pause it off screen, and paint a still frame under reduced motion.",
+      "Do keep tap targets at 44px minimum and primary controls at 48 to 56px.",
+      "Do make a whole row the button, with one arrow-in-a-circle cue, instead of repeating an action label.",
+      "Do keep the pitch line at 20px max and let headlines wrap balanced."
+    ],
+    "donts": [
+      "Don't use black or neutral grey surfaces; the darkest color is night.",
+      "Don't use mustard for decoration; it marks action, confirmation, focus, or the free-week offer.",
+      "Don't add thin decorative highlight lines, inset glints, or hard offset shadows.",
+      "Don't draw materials as outlines; grass, piles and flies are filled and shaded.",
+      "Don't make the piles or anything else graphic; cartoon, in the logo's own style.",
+      "Don't set body copy, buttons or chips in uppercase."
+    ]
+  }
+}
