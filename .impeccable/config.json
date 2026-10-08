@@ -92,6 +92,33 @@
         ],
         "createdAt": "2026-10-08T23:53:46.529Z",
         "reason": "Claude: .ticket shadow has a 10px y-offset and sits on the cream section; detector regex misreads it as a glow"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "76px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:56.773Z",
+        "reason": "Claude: fluid endpoint of the close headline/area line shipped in the reviewed build; DESIGN.md omitted it"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "22px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:56.849Z",
+        "reason": "Claude: fluid endpoint of the close headline/area line shipped in the reviewed build; DESIGN.md omitted it"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:56.926Z",
+        "reason": "Claude: only hit is the .ticket shadow, 10px y-offset on the cream section; regex misreads it as a glow"
       }
     ]
   }
