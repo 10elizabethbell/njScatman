@@ -11,6 +11,87 @@
         ],
         "createdAt": "2026-10-08T23:43:35.312Z",
         "reason": "pitch-site build-notes recipe: img src assigned lazily from embedded base64 text blocks so motion and buttons load first (Claude, per skill)"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "10px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:45.885Z",
+        "reason": "Claude: minor step shipped in the reviewed build (focus ring, chip tick, labels, close/footer sizes); DESIGN.md was derived from the page and omitted it"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "6px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:45.961Z",
+        "reason": "Claude: minor step shipped in the reviewed build (focus ring, chip tick, labels, close/footer sizes); DESIGN.md was derived from the page and omitted it"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "19px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:46.040Z",
+        "reason": "Claude: minor step shipped in the reviewed build (focus ring, chip tick, labels, close/footer sizes); DESIGN.md was derived from the page and omitted it"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "13px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:46.118Z",
+        "reason": "Claude: minor step shipped in the reviewed build (focus ring, chip tick, labels, close/footer sizes); DESIGN.md was derived from the page and omitted it"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "14px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:46.195Z",
+        "reason": "Claude: minor step shipped in the reviewed build (focus ring, chip tick, labels, close/footer sizes); DESIGN.md was derived from the page and omitted it"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "18px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:46.275Z",
+        "reason": "Claude: minor step shipped in the reviewed build (focus ring, chip tick, labels, close/footer sizes); DESIGN.md was derived from the page and omitted it"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "clamp(40px,11vw,76px)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:46.360Z",
+        "reason": "Claude: minor step shipped in the reviewed build (focus ring, chip tick, labels, close/footer sizes); DESIGN.md was derived from the page and omitted it"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "clamp(17px,4.8vw,22px)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:46.444Z",
+        "reason": "Claude: minor step shipped in the reviewed build (focus ring, chip tick, labels, close/footer sizes); DESIGN.md was derived from the page and omitted it"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "#16351f",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:53:46.529Z",
+        "reason": "Claude: .ticket shadow has a 10px y-offset and sits on the cream section; detector regex misreads it as a glow"
       }
     ]
   }
