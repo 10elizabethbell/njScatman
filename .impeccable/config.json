@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T23:43:35.312Z",
+        "reason": "pitch-site build-notes recipe: img src assigned lazily from embedded base64 text blocks so motion and buttons load first (Claude, per skill)"
+      }
+    ]
+  }
+}
