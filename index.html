@@ -193,7 +193,7 @@ footer a{color:var(--cream);font-weight:700}
 .demo{margin-top:10px;opacity:.8}
 
 /* ===== Sticky phone bar ===== */
-.bar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:grid;grid-template-columns:1.35fr 1fr;gap:8px;
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:grid;grid-template-columns:1.7fr 1fr;gap:8px;
   padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(22,53,31,.94);
   transform:translateY(110%);transition:transform .35s cubic-bezier(.2,.9,.3,1)}
 .bar.show{transform:none}
@@ -235,7 +235,7 @@ DIRECTION CONTRACT
 THESIS: NJ Scatman's own cartoon Doberman detective, standing in a live South Jersey lawn, sells a clean yard and a free first week in one phone screen.
 OWN-WORLD: The backyard lawn. Grass that sways in layered wind and parts under a finger; a few cartoon piles (drawn like the one in their logo) you can swipe to scoop, with flies that scatter. Greens from the logo oval, brown from the wordmark, mustard from their "First Week is FREE" starburst. Ground is deep lawn green, never black.
 STORY: Hero (benefit + their pun + free week) -> pick your plan (price from their own list, composes a text/email request) -> what I DOO (services, add-ons wired into the picker, Zeus photos framed in grass) -> how it works -> first week's on us (logo, area, contact) -> footer.
-FIRST VIEWPORT (390px): top bar with badge + call; "I DOO the dirty work." headline; one-line pitch with area and free week; Claim free week + Call buttons; the lawn with the mascot and starburst, scoopable piles.
+FIRST VIEWPORT (390px): top bar with badge + call; "I DOO the dirty work." headline; one-line pitch with area and free week; Claim your free week + Call buttons; the lawn with the mascot and starburst, scoopable piles.
 FORM: Single static file, system font stack in heavy uppercase display + plain sentence body, pill buttons in matched pairs, one shared animation loop for every lawn, fringe and path edge.
 -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -263,7 +263,7 @@ FORM: Single static file, system font stack in heavy uppercase display + plain s
       <h1 class="display">I DO the <em>dirty work.</em></h1>
       <p class="pitch">Dog poop scooped from your yard across <b>Burlington, Camden &amp; Gloucester</b> counties. <b>First week FREE.</b> Cancel anytime.</p>
       <div class="hero-actions hero-one" id="hero-actions">
-        <a class="btn btn-gold" href="#plan">Claim my free week <svg class="i"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-gold" href="#plan">Claim your free week <svg class="i"><use href="#i-arrow"/></svg></a>
       </div>
     </div>
   </div>
@@ -375,7 +375,7 @@ FORM: Single static file, system font stack in heavy uppercase display + plain s
       <p class="area-note">Like a clean yard? Keep your plan. Don't? Cancel anytime. Not sure you're in the area, or have more than 4 dogs? Ask, and we'll figure out a plan.</p>
       <ul class="facts"><li>Locally owned and operated</li><li>Cancel anytime</li><li>Kennel-grade disinfected tools</li></ul>
       <div class="hero-actions" style="margin-top:22px">
-        <a class="btn btn-gold" href="#plan">Claim my free week <svg class="i"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-gold" href="#plan">Claim your free week <svg class="i"><use href="#i-arrow"/></svg></a>
         <a class="btn btn-ghost" href="tel:+16095823709"><svg class="i"><use href="#i-phone"/></svg>Call 609-582-3709</a>
       </div>
     </div>
@@ -394,7 +394,7 @@ FORM: Single static file, system font stack in heavy uppercase display + plain s
 </footer>
 
 <nav class="bar" id="bar" aria-label="Quick contact">
-  <a class="btn btn-gold" id="bar-main" href="#plan">Claim free week</a>
+  <a class="btn btn-gold" id="bar-main" href="#plan">Claim your free week</a>
   <a class="btn btn-ghost" href="tel:+16095823709"><svg class="i"><use href="#i-phone"/></svg>Call</a>
 </nav>
 
@@ -814,7 +814,7 @@ addEventListener('resize', (function(){ var tm, lw = innerWidth; return function
   var bar = document.getElementById('bar'), main = document.getElementById('bar-main'), heroVis = true, ticketVis = false, inPlan = false;
   function upd(){
     bar.classList.toggle('show', !heroVis && !ticketVis);
-    main.textContent = inPlan ? 'Send my request' : 'Claim free week';
+    main.textContent = inPlan ? 'Send my request' : 'Claim your free week';
     main.setAttribute('href', inPlan ? '#ticket' : '#plan');
   }
   new IntersectionObserver(function(es){ inPlan = es[0].isIntersecting; upd(); }).observe(document.getElementById('plan'));
