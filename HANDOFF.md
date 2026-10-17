@@ -1,6 +1,6 @@
 # NJ Scatman — handoff at ~60%
 
-**Live file:** index.html · **Repo:** https://github.com/10elizabethbell/njScatman · **Built:** 2026-10-08 from Muse brief 2026-10-08 (Marlton NJ Local Business Group post)
+**Live:** https://10elizabethbell.github.io/njScatman/ · **File:** index.html · **Repo:** https://github.com/10elizabethbell/njScatman · **Built:** 2026-10-08 from Muse brief 2026-10-08 (Marlton NJ Local Business Group post)
 
 ## What's built
 - A focused "First week FREE — pick your plan" landing page (the brief's suggested shape), linkable from Facebook or from their existing nj-scatman.com. Not a full replacement site.
