@@ -6,9 +6,11 @@
 - A focused "First week FREE — pick your plan" landing page (the brief's suggested shape), linkable from Facebook or from their existing nj-scatman.com. Not a full replacement site.
 - **World: their backyard lawn.** Deep lawn-green ground, cream sections, mustard from their starburst, brown from their wordmark. Their own Doberman-detective mascot + "First Week is FREE" starburst (from nj-scatman.com) stands in the hero grass.
 - **Signature element:** canvas grass that sways in layered wind and parts/springs back under mouse or finger. Cartoon piles (styled like the one in their logo) sit in the grass with flies circling; swipe over one and it's scooped (flies off, grass clippings burst). Counter "Swipe to scoop · N left" → "Spotless. That's the job." → piles return after ~4s. Same grass grows along every green section edge and laps the bottom of each photo; cream sections have a wind-driven wavy top edge. One shared animation loop, paused off screen, still frame under reduced motion, fewer blades on phones.
-- **Plan picker:** how often (weekly / bi-weekly / twice a week / one-time), dogs (1–5+), add-ons, town, name → shows their published price and writes the request; sends by `sms:` or `mailto:`, with a call link. Town is required (inline error). Service rows for add-ons toggle them into the picker.
+- **Plan picker:** how often (weekly / bi-weekly / twice a week / one-time), dogs (1–5+), add-ons, town, name → shows their published price and writes the request; sends by `sms:`, with a call link. Town is required (inline error). Service rows for add-ons toggle them into the picker.
 - Sections: hero → pick your plan → What I DOO (services + 3 Zeus photos in grass frames) → "First week's on us" (logo, counties, cancel-anytime line, contact) → footer with "Demo one-pager — free sample." A "How it works" section was cut in review: it only repeated the hero, picker and close.
-- Phone: sticky bottom bar (Claim free week + Call) appears after the hero buttons scroll away; inside the picker it becomes "Send my request" (jumps to the price ticket) and hides over the ticket's own send buttons. ~250 KB single file; images load from embedded data after the motion starts.
+- Contact (finishing rules, 2026-10-17): the phone number shows only in the header's top-right corner (as text at every width) and again in the footer. There is no sticky bottom bar and no Call button in the hero or close. The plan picker sends by text only, with an "or call" line. The only email is in the footer. Facebook links sit under the work photos ("Click to see more of my work") and in the footer.
+- No demo/sample wording. Favicon and home-screen icon are the Doberman head from their logo; `og.jpg` (1200×630) is the link preview.
+- Services are short items (no description sentences). Copy is in the owner's first person ("First week's on me", "I treat your yard like it's my own"). The hero has no service area. The starburst is now a plain graphic, not a second link to the picker.
 - Top-bar badge is a crop of the Doberman's head from their logo (the full logo is unreadable at 46px); the full logo sits in the close section.
 - Hero (Ellie's edits, 2026-10-17): headline "I DO the dirty work."; the only hero button is "Claim my free week" (the number is in the top bar). The Doberman is a cut-out from their mascot art (`assets/dog.webp`, starburst and grey shadow removed), and the starburst is redrawn as a vector "FIRST WEEK IS FREE" on the right. It links to the picker and sways with the wind, and the finger nudges it.
 - Services heading is "What I Doo Doo". A "See the work on Facebook" link sits under the Zeus photos. It goes to the Facebook account their own site links to.
@@ -19,7 +21,7 @@
 - One image alt on their site says "from $16.50 per week" — conflicts with the $19 list, not used.
 - Service area = Burlington, Camden, Gloucester (brief). Their site's map also shades **Atlantic** county — left out until confirmed.
 - First week free applies to recurring plans only; one-time scoop shows "No plan needed" instead. Inferred.
-- Primary action = "Claim my free week" (goes to the picker) + Call. Texting is offered but **texts are unconfirmed**, so email and call sit right beside it.
+- Primary action = "Claim your free week" (goes to the picker). The picker hands off by text (**texts are unconfirmed**), with an "or call" link.
 - Headline uses their caption verbatim ("I DOO the dirty work"). Service copy is from their caption, flyer and site, lightly trimmed.
 - Colors inferred from the logo (oval green, wordmark brown) and starburst (mustard). Ground is deep lawn green, not black.
 - Photos (2026-10-17, supplied by Ellie): their lettered car with tied-off bags and scooper (big frame) and the owner scooping a yard in the green NJ Scatman shirt and cap, plus one Zeus close-up from their site. Originals are in the ignored `src-assets/` folder (car.png, owner.png).
@@ -32,6 +34,7 @@
 
 ## Questions for the owner
 - Do you take texts at 609-582-3709? (If not, swap "Text my request" for call-first.)
+- Is the Facebook account your site links to (a group-member profile) the right one, or do you have a business Page URL?
 - Twice-a-week price list? Bi-weekly for 3–4 dogs?
 - Do you serve Atlantic county?
 - Does the free first week apply to every plan? Any contract/minimum?
