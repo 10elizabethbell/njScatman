@@ -22,12 +22,12 @@
 - Primary action = "Claim my free week" (goes to the picker) + Call. Texting is offered but **texts are unconfirmed**, so email and call sit right beside it.
 - Headline uses their caption verbatim ("I DOO the dirty work"). Service copy is from their caption, flyer and site, lightly trimmed.
 - Colors inferred from the logo (oval green, wordmark brown) and starburst (mustard). Ground is deep lawn green, not black.
-- Zeus (the terrier in their site photos) is presumably the owner's dog; captioned neutrally. Photos with a person in them were skipped.
+- Photos (2026-10-17, supplied by Ellie): their lettered car with tied-off bags and scooper (big frame) and the owner scooping a yard in the green NJ Scatman shirt and cap, plus one Zeus close-up from their site. Originals are in the ignored `src-assets/` folder (car.png, owner.png).
 - Kept system fonts (house style). Their wordmark is a rounded display face; the logo image carries it.
 
 ## Placeholders and gaps
 - No owner name, hours, reviews, before/after photos, Google Business Profile.
-- No work photos (yards before/after) — only Zeus photos and their cartoon art.
+- No before/after yard photos yet. The work proof is the car + gear shot and the owner-on-the-job shot.
 - Twice-a-week prices, and 3+ dogs bi-weekly, show "Ask".
 
 ## Questions for the owner
