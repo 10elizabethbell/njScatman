@@ -119,6 +119,33 @@
         ],
         "createdAt": "2026-10-08T23:53:56.926Z",
         "reason": "Claude: only hit is the .ticket shadow, 10px y-offset on the cream section; regex misreads it as a glow"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgb(0, 0, 0)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-17T18:34:25.773Z",
+        "reason": "Claude: neutral drop shadows on gold buttons/photo frames, recorded in DESIGN.md as the one Never-Black exception"
+      },
+      {
+        "rule": "overused-font",
+        "value": "roboto",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-17T18:34:25.846Z",
+        "reason": "Claude: Roboto is only a fallback in the system font stack, Ellie's house style (ellie-taste.md §2 Type)"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-17T18:34:25.920Z",
+        "reason": "Claude: display steps are 34-92px over 17px body (2x+); flagged spread is the 13-20px label/body cluster"
       }
     ]
   }
