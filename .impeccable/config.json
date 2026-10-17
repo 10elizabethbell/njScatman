@@ -146,6 +146,24 @@
         ],
         "createdAt": "2026-10-17T18:34:25.920Z",
         "reason": "Claude: display steps are 34-92px over 17px body (2x+); flagged spread is the 13-20px label/body cluster"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgb(24, 119, 242)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-17T18:43:04.538Z",
+        "reason": "Claude: Facebook brand blue/white on the Facebook link's logo mark only"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#fff",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-17T18:43:04.617Z",
+        "reason": "Claude: Facebook brand blue/white on the Facebook link's logo mark only"
       }
     ]
   }

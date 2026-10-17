@@ -10,7 +10,8 @@
 - Sections: hero → pick your plan → What I DOO (services + 3 Zeus photos in grass frames) → "First week's on us" (logo, counties, cancel-anytime line, contact) → footer with "Demo one-pager — free sample." A "How it works" section was cut in review: it only repeated the hero, picker and close.
 - Phone: sticky bottom bar (Claim free week + Call) appears after the hero buttons scroll away; inside the picker it becomes "Send my request" (jumps to the price ticket) and hides over the ticket's own send buttons. ~250 KB single file; images load from embedded data after the motion starts.
 - Top-bar badge is a crop of the Doberman's head from their logo (the full logo is unreadable at 46px); the full logo sits in the close section.
-- Their mascot art is redrawn over the grass in the starburst area, so "is FREE" stays readable while the dog's feet sink into the lawn.
+- Hero (Ellie's edits, 2026-10-17): headline "I DO the dirty work."; the only hero button is "Claim my free week" (the number is in the top bar). The Doberman is a cut-out from their mascot art (`assets/dog.webp`, starburst and grey shadow removed), and the starburst is redrawn as a vector "FIRST WEEK IS FREE" on the right. It links to the picker and sways with the wind, and the finger nudges it.
+- Services heading is "What I Doo Doo". A "See the work on Facebook" link sits under the Zeus photos. It goes to the Facebook account their own site links to.
 - `tools/embed-images.py` re-embeds `assets/*.webp` into index.html after a photo swap.
 
 ## Assumptions I made
@@ -48,7 +49,8 @@
 - Self-host their rounded wordmark-style face for headings (would break house system-font rule; ask).
 
 ## Known leftovers
-- The mascot art has a pale grey ground shadow that shows a little through the grass on desktop; painting it out of `assets/mascot.webp` would fix it.
+- The dog cut-out has a small notch at the right elbow where the starburst overlapped it in the original art.
+- The starburst uses the system font, not their rounded logo face.
 - Detector flags the price ticket's offset shadow as a "dark glow"; it's a false positive (10px offset, on cream), left as is.
 - Tuning knobs: `WIND_SPEED` (YARD), `SPACING`/`HEIGHT`/`PUSH_R` (Lawn), `PILES_PHONE`/`PILES_DESK`/`SCOOP_R`/`RESPAWN_MS` (hero), `AMP` (path edges), `PRICES` (picker).
 
